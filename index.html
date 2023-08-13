@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>beauty center </title>
     <link rel="icon" href="a1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- debut du header  -->
     <header>
-        <img src="a1.png" alt="beauty center">
-        <ul>
-            <li>home </li>
-            <li>redaction</li>
-            <li>about </li>
-        </ul>
+        <div class="logo"><img src="a1.png" width="100px" height="100px"  alt="beauty center"></div> 
+       
+        <div class="a"> <a href="">home </a></div>
+        <div class="a"><a href="">redaction</a></div>
+        <div class="a"><a href="">about</a> </div>
+     
 
     </header>
     <!--fin du header   -->
@@ -23,14 +24,12 @@
 
 
     <!-- debut du section  -->
-    <section id="presentation ">
-    <h1>
-    Welcome to my center 
-    </h1>
-    <br/>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/F8WiBlASwq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section id="presentation">
+        <h1>Welcome to my center </h1>
+        <br/>
+        <iframe width="1500" height="500" src="https://www.youtube.com/embed/F8WiBlASwq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <p> mes dammes et monsieurs , notre centre est située en cinqieme etage d'etablissement el yasamine 3eme bureau , n'hesiter pas de nous visiter .</p>
+        <div class=" ps"><p> mes dammes et monsieurs , notre centre est située en cinqieme etage d'etablissement el yasamine 3eme bureau , n'hesiter pas de nous visiter .</p></div>
 
     </section>
     <!-- fin de section  -->
@@ -41,7 +40,7 @@
     <!-- remplissage de formulaire  -->
     <section id="form">
         <p> pour prendre un rendez-vous il faut que vous remplire ce formulaire </p>
-        <h3>formulaire</h3>
+        <h2>formulaire</h2>
 
         <form action="">
             <label for="">  nom et prenom  </label>
@@ -63,8 +62,8 @@
             </select> <br/>
             <label for="">localisation </label>
             <textarea name="" id="" cols="30" rows="10"></textarea><br/>
-            <input type="reset" >
-            <button type="submit"> valider </button>
+            <div class="res"><input type="reset" ></div>
+            <div class="res"><button type="submit"> valider </button></div>
 
         </form>
     <!-- fin du formulaire  -->
