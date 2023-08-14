@@ -46,7 +46,7 @@ table,tr,th,td {
 
 label {
     text-align: center ;
-    color: burlywood;
+    color: rgb(7, 7, 6);
     margin: 10px 300px;
 }
 input{
@@ -59,4 +59,8 @@ input{
 
 .res{
     margin: 10px 600px;   
+}
+
+body{
+    background-color: rgb(196, 188, 233);
 }
